@@ -1,6 +1,6 @@
 (footprint "MX_6.25U" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61AEE433)
+  (tedit 61AFAD94)
   (fp_text reference "REF**" (at 0.25 6.25 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 83f7bd8e-f452-4db9-8484-d55671249c27)
@@ -23,19 +23,14 @@
   (pad "" np_thru_hole circle (at 0 0) (size 1.524 1.524) (drill 4) (layers F&B.Cu *.Mask) (tstamp cf084eb5-9acb-4a0e-a4ac-bb24fc11d4b1))
   (pad "1" thru_hole circle (at 2.54 -5.08) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp 8a619103-f369-40f6-b6b1-45d2d4f806b4))
   (pad "2" thru_hole circle (at -3.81 -2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp 47f76b43-c977-4abf-8c03-6030abe1ac24))
-  (model "/Users/ericlau/git/KiCad/3D/switch.stp"
+  (model "/Users/ericlau/git/COBO_parts/3D/switch.stp"
     (offset (xyz 0 -1 5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/Users/ericlau/git/KiCad/3D/Stabilizer - open.STEP"
-    (offset (xyz -50 0 4))
+  (model "/Users/ericlau/git/COBO_parts/3D/Cherry MX 6.25U Stabilizer.step"
+    (offset (xyz -12 0 3.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
-  (model "/Users/ericlau/git/KiCad/3D/Stabilizer - open.STEP"
-    (offset (xyz 26 0 4))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )

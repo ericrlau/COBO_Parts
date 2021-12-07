@@ -1,5 +1,6 @@
-(footprint "E73-2G4M08S1C" (version 20210108) (generator pcbnew) (layer "F.Cu")
-  (tedit 6016EA66)
+(footprint "E73-2G4M08S1C" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61AFACC1)
   (descr "E73, NRF52840, BLE Module")
   (tags "E73, NRF52840, BLE Module")
   (attr smd)
@@ -115,7 +116,7 @@
     (clearance 0.1) (tstamp d1325404-4b7e-4dc8-afef-a269d4a089c2))
   (pad "43" smd roundrect (at -12.5 14.03) (size 1.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.125)
     (clearance 0.1) (tstamp a9102341-35da-4c8c-8435-f92a165e5947))
-  (zone (net 0) (net_name "") (layers *.Cu) (tstamp ddd4c369-19ed-4419-a814-74a91eb2ef22) (name "ANTENNA") (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layers *.Cu) (tstamp 12da4c81-3993-40bf-bc49-30c1af156903) (name "ANTENNA") (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
@@ -129,7 +130,7 @@
       )
     )
   )
-  (model "/Users/ericlau/git/KiCad/3D/E73-2G4M08S1C.step"
+  (model "/Users/ericlau/git/COBO_parts/3D/E73-2G4M08S1C.step"
     (offset (xyz -6.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

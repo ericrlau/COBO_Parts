@@ -1,6 +1,6 @@
 (footprint "MX_2U" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61AEE3B8)
+  (tedit 61AFAD2A)
   (fp_text reference "REF**" (at 0.25 6.5 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 337c348a-947d-4cfd-b4f4-481f513ead35)
@@ -20,12 +20,12 @@
   (pad "" np_thru_hole circle (at -11.938 -6.985) (size 3.048 3.048) (drill 3.048) (layers F&B.Cu *.Mask) (tstamp eb0869c9-f532-4179-8091-19288d0ef325))
   (pad "1" thru_hole circle (at 2.54 -5.08) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp d87fd926-6a61-4dd9-a15a-5aa42b2278f0))
   (pad "2" thru_hole circle (at -3.81 -2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp 18c4d53a-7a8f-4d46-8717-3412e89e2d56))
-  (model "/Users/ericlau/git/KiCad/3D/Stabilizer - open.STEP"
+  (model "/Users/ericlau/git/COBO_parts/3D/Stabilizer - open.STEP"
     (offset (xyz -12 0 4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/Users/ericlau/git/KiCad/3D/switch.stp"
+  (model "/Users/ericlau/git/COBO_parts/3D/switch.stp"
     (offset (xyz 0 -1 5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
